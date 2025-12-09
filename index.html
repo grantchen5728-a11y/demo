@@ -1,67 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Student Form Demo</title>
-  <style>
-    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; padding: 1rem; }
-    .container { max-width: 640px; margin: 0 auto; }
-    .form-row { margin-bottom: 0.75rem; }
-    label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
-    input, select { width: 100%; padding: 0.5rem; font-size: 1rem; }
-    fieldset { border: 1px solid #ccc; padding: 1rem; }
-    legend { font-weight: 700; }
-  </style>
+  <title>demo1</title>
+
 </head>
 <body>
-  <div class="container">
-    <h1 style="background-color:DodgerBlue; color: white; padding: 0.5rem;">Hello World</h1>
-
-    <p style="background-color:Tomato; color: white; padding: 0.5rem;">
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </p>
-
-    <form id="studentForm" action="#" method="post" aria-labelledby="studentFormHeading">
-      <fieldset>
-        <legend id="studentFormHeading">Student Information</legend>
-
-        <div class="form-row">
-          <label for="studentId">Student ID</label>
-          <input id="studentId" name="studentId" type="text" inputmode="numeric" pattern="[0-9]*" required aria-required="true" placeholder="e.g. 2025001" />
-        </div>
-
-        <div class="form-row">
-          <label for="studentName">Name</label>
-          <input id="studentName" name="studentName" type="text" required aria-required="true" placeholder="Full name" />
-        </div>
-
-        <div class="form-row">
-          <label for="age">Age</label>
-          <input id="age" name="age" type="number" min="0" max="150" required aria-required="true" />
-        </div>
-
-        <div class="form-row">
-          <label for="birthday">Birthday</label>
-          <input id="birthday" name="birthday" type="date" required aria-required="true" />
-        </div>
-
-        <div class="form-row">
-          <label>Gender</label>
-          <div role="radiogroup" aria-label="Gender">
-            <label><input type="radio" name="gender" value="female" required /> Female</label>
-            <label><input type="radio" name="gender" value="male" /> Male</label>
-            <label><input type="radio" name="gender" value="other" /> Other</label>
-            <label><input type="radio" name="gender" value="prefer_not" /> Prefer not to say</label>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <button type="submit">Submit</button>
-        </div>
-      </fieldset>
-    </form>
-  </div>
+this is test
 </body>
 </html>
